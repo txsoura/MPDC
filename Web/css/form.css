@@ -1,0 +1,51 @@
+#appearance-select
+{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background: transparent;
+    background-position: 218px center;
+    width: 450px;
+    height: 50px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=text],input[type=number],input[type=email],input[type=date],input[type=password] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[placeholder=Nome]:focus ,input[placeholder=Email]:focus {
+    width: 500px;
+}
+input[placeholder=Telefone]:focus,input[placeholder=Senha]:focus{
+    width: 330px;
+}
+input[placeholder=Endereco]:focus{
+    width: 800px;
+}
+textarea[placeholder=Mensagem]{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    height: 50px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+textarea[placeholder=Mensagem]:focus{
+    width: 1150px;
+    height: auto;
+}
